@@ -1,0 +1,6 @@
+echo "# newhome" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/JohnKrupa/newhome.git
+git push -u origin master
